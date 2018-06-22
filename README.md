@@ -32,11 +32,17 @@ request
     model: 'AR Drone 2.0',
     color: 'Gray',
     active: false,
-    images: '[https://stae.co/drone1.jpg, https://stae.co/drone2.jpg]',
-    speed: '0'
-    heading: '0'
+    images: [
+    		"https://stae.co/drone1.jpg", 
+    		"https://stae.co/drone2.jpg"
+    		],
+    speed: 0
+    heading: 0
     tripId: 'Waterfront Delivery 01'
-    operators: '[Department of Transportation, Department of Innovation]',
+    operators: [
+    			"Department of Transportation", 
+    			"Department of Innovation"
+    			],
     notes: 'Initial pilot project for CBD deliveries',
 
     location: {
@@ -68,8 +74,14 @@ request
     type: 'delivery drone',
     tripId: 'Waterfront Delivery 01',
     paymentId: '123321',
-    images: '[https://stae.co/drone1.jpg, https://stae.co/drone2.jpg]',
-    operators: '[Department of Transportation, Department of Innovation]',
+    images: [
+    		"https://stae.co/drone1.jpg", 
+    		"https://stae.co/drone2.jpg"
+    		],
+    operators: [
+    		"Department of Transportation", 
+    		"Department of Innovation"
+    		],
     notes: 'Proposed delivery route for CBD drone',
 
     location: {
@@ -123,7 +135,10 @@ request
     manufacturer: '1',
     ceiling: '121',
     fee: '100',
-    operators: '[Department of Transportation, Department of Innovation]',
+    operators: [
+    		"Department of Transportation", 
+    		"Department of Innovation"
+    		],
     notes: 'Initial pilot project for Jersey City deliveries',
 
     location: {
@@ -179,7 +194,10 @@ request
     name: 'Emergency Drone Landing Zone',
     id: '56789',
     type: 'parking lot',
-    operators: '[Department of Emergency Management, Department of Innovation]',
+    operators: [ 
+    		"Department of Emergency Management", 
+    		"Department of Innovation"
+    		],
     notes: 'Emergency landing zone on top floor of parking garage.',
     images: '[https://stae.co/parking-garage.jpg]',
 
